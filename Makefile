@@ -1,5 +1,10 @@
 all:
-	zig build-exe main.zig
+	zig build
+
+run:
+	make all
+	cls || clear
+	zig-out/bin/main
 
 clean:
 	rm -f main
