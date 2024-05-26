@@ -1,4 +1,6 @@
 projects
-./main.exe
-./main.exe.obj
-./maib.pdb
+main.exe
+main.exe.obj
+main.pdb
+zig-cache
+zig-out
